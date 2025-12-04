@@ -5,9 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-"dev": "nodemon ./src/index.js"
+    "dev": "nodemon ./src/index.js"
   },
-  "keywords": ["backend", "javascript"],
+  "keywords": [
+    "backend",
+    "javascript"
+  ],
   "author": "Anupam Choubey",
   "license": "ISC",
   "dependencies": {
@@ -16,6 +19,8 @@
     "mongoose": "^9.0.0"
   },
   "devDependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
     "nodemon": "^3.1.0"
   }
 }
